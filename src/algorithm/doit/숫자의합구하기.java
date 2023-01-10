@@ -1,5 +1,4 @@
 package algorithm.doit;
-
 //자료구조: 숫자의 합
 import java.util.Scanner;
 
@@ -11,14 +10,14 @@ public class 숫자의합구하기 {
 		// 길이의 n의 숫자를 입력받아 String 변수 sNum에 저장하기
 		System.out.println("숫자를 입력하세요");
 		String sNum = sc.next();
-//		System.out.println(sNum);
+//				System.out.println(sNum);
 
 		// sNum을 다시 char[]형 변수 cNum에 변환하여 저장하기
 		char cNum[] = sNum.toCharArray();
 
-//		for (char c : cNum) {
-//			System.out.print(c);
-//		}
+//				for (char c : cNum) {
+//					System.out.print(c);
+//				}
 		// int형 변수 sum 선언하기
 		int sum = 0;
 
@@ -32,8 +31,7 @@ public class 숫자의합구하기 {
 		}
 		// 배열의 각 자리값을 정수형으로 변환하며 sum에 더하여 누적하기
 		// sum 출력하기
-		System.out.println("합은 "+sum);
-
+		System.out.println("합은 " + sum);
 	}
 
 }

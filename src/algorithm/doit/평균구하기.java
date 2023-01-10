@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class 평균구하기 {
 
 	public static void main(String[] args) {
-
 		// 40/80*100 =50
 		// 80/80*100=100
 		// 60/80*100=75
@@ -41,4 +40,5 @@ public class 평균구하기 {
 		// (40+80+60)*100/최댓값/총개수
 		System.out.println("뻥튀기한 총점의 평균은? " + sum * 100 / max / n);
 	}
+
 }
