@@ -34,7 +34,6 @@ public class 나머지합구하기 {
 		for (int i = 1; i < N; i++) {
 			S[i] = S[i - 1] + sc.nextInt();
 		}
-
 		// 이제 M값으로 나머지 연산을 수행하기!!!
 		for (int i = 0; i < N; i++) {
 			// 이제 0번째 부터 합배열 길이만큼 전체를 돌면서

@@ -9,7 +9,7 @@ import java.util.Scanner;
    이제 다음과 같은 동작을 카드가 한 장 남을 때까지 반복하게 된다. 
    우선, 제일 위에 있는 카드를 바닥에 버린다. 그 다음, 제일 위에 있는 카드를 제일 아래에 있는 카드 밑으로 옮긴다.*/
 public class 카드게임 {
-
+	
 	public static void main(String[] args) {
 		// 1. 스케너 객체 값 입력받기
 		Scanner sc = new Scanner(System.in);
