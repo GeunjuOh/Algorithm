@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class 카드게임 {
 	
 	public static void main(String[] args) {
-		// 1. 스케너 객체 값 입력받기
+		// 1. 스케너 객체 값 입력받기ㄴㄴㄴ
 		Scanner sc = new Scanner(System.in);
 
 		// 2.queue 객체 생성

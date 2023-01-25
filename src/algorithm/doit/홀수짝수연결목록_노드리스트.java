@@ -7,7 +7,7 @@ package algorithm.doit;
 public class 홀수짝수연결목록_노드리스트 {
 
 	public static void main(String[] args) {
-		// 잘모르겠습니다.
+		// 잘모르겠습니다.ㅇㅇ
 	
 	}
 
